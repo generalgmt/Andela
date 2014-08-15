@@ -1,6 +1,9 @@
 .navbar-fixed-top, footer, section{
   overflow-x: hidden 
 }
+section{
+  overflow: hidden;
+}
 .card
 {
     background-color: #e2f0ff;
