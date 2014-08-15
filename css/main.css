@@ -79,7 +79,10 @@ a img {
 
 /* About */
 
-.about {
+.about, 
+.andela_fellow,
+.mean_stack,
+.apply{
     padding: 50px 0;
 }
 
