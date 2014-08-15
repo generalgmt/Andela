@@ -15,8 +15,6 @@
 .card .card-body
 {
     padding: 15px;
-    position: absolute;
-    bottom: 10px;
 }
 
 .card:hover {
@@ -115,8 +113,10 @@
  }
 .card-body .read-more {
    margin-top: 4%; 
-   /*position:absolute; 
-   bottom: 14px;*/
+   position:absolute; 
+   bottom: 14px;
+   left: 35%;
+   right: 40%;
 }
 
 .cardbox {
@@ -124,7 +124,7 @@
   margin-right: 2%;
   position: relative;
   border: 4px solid white;
-  box-shadow: 0 2px 7px #CCC;
+  /*box-shadow: 0 2px 7px #CCC;*/
   padding: 0;
 }
 
