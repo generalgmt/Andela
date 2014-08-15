@@ -12,6 +12,16 @@
 
 }
 
+.cardnone
+{
+    background-color: #e2f0ff;
+    overflow: hidden;
+    font-family:  'Roboto',"Myriad Pro",Arial,Helvetica,sans-serif !important;
+    /*transition: all  1.2s ease;*/
+    color: black;
+    height: 360px;
+
+}
 .card .card-body
 {
     padding: 15px;
