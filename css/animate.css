@@ -1,4 +1,6 @@
-
+.navbar-fixed-top, footer, section{
+  overflow-x: hidden 
+}
 .card
 {
     background-color: #e2f0ff;
@@ -6,12 +8,15 @@
     font-family:  'Roboto',"Myriad Pro",Arial,Helvetica,sans-serif !important;
     transition: all  1.2s ease;
     color: black;
+    height: 360px;
 
 }
 
 .card .card-body
 {
     padding: 15px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .card:hover {
