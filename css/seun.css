@@ -1,0 +1,13 @@
+section#mean_stack{
+  background: #102078 url(../img/bg2.jpg) no-repeat top left;
+  background-size: cover;
+}
+
+section h2{
+  text-shadow: 0px 1px 1px #666;
+}
+
+section#about{
+  background: #102078 url(../img/bg3.jpg) no-repeat top left;
+  background-size: cover;
+}
