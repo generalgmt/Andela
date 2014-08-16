@@ -13,14 +13,19 @@ body {
     font-size: 14px;
 }
 
+h2 { 
+  font-family: 'Raleway', sans-serif;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>li>a:hover {
     background-color: #D3279C;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5) inset, 0px 5px 4px rgba(0, 0, 0, 0.12);
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -29,6 +34,7 @@ body {
 
 .navbar-inverse .navbar-nav>li>a:hover {
     background-color: #D3279C;
+    background-color: #DA2426;
 }
 
 .active {
