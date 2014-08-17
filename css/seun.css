@@ -69,3 +69,17 @@ section#about{
 html.test .header{
   background: url('../img/testbg.jpg') no-repeat scroll center center / cover transparent !important;
 }
+html.test3 .header{
+  background: url('../img/testbg2.jpg') no-repeat scroll center center / cover transparent !important;
+}
+
+html.test3 .header{
+  display: block;
+  position: static;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: url('../img/img_hero.jpg') no-repeat scroll center center / cover transparent;
+  height: 600px;
+}
