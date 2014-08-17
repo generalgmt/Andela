@@ -1,5 +1,5 @@
 div.my_wrapper{
-  max-width: 1024px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -14,18 +14,18 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 p, ul, li,dl, dt, dd, fieldset, input, label{
-  font-size: 14px;
+  font-size: 14px !important;
   line-height: 1.5;
 }
 
 h1 {
-  font-size: 24px;}
+  font-size: 24px !important;}
 
 h2 {
-  font-size: 18px;}
+  font-size: 18px !important;}
 
 h3 {
-  font-size: 15px;}
+  font-size: 15px !important;}
 
 
 abbr[title] {
@@ -34,12 +34,25 @@ abbr[title] {
 section{
   padding: 60px 0 !important;  
 }
+section div{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  text-align: left;
+}
 section#mean_stack{
   background: #102078 url(../img/bg2.jpg) no-repeat top left;
   background-size: cover;
+  color: #f3f4f5;
 }
 section#mean_stack h2{
-  color: #fff;
+  color: #f3f4f5;
+}
+section#mean_stack div.col_content{
+  border: 1px solid white;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 15px;
+  min-height: 340px;
 }
 
 section h2{
