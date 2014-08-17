@@ -1,10 +1,50 @@
+div.my_wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 10px !important;
+}
+
+p, ul, li,dl, dt, dd, fieldset, input, label{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 24px;}
+
+h2 {
+  font-size: 18px;}
+
+h3 {
+  font-size: 15px;}
+
+
+abbr[title] {
+  border: none;}
+
+section{
+  padding: 60px 0 !important;  
+}
 section#mean_stack{
   background: #102078 url(../img/bg2.jpg) no-repeat top left;
   background-size: cover;
 }
+section#mean_stack h2{
+  color: #fff;
+}
 
 section h2{
   text-shadow: 0px 1px 1px #666;
+  text-align: center;
 }
 
 section#about{

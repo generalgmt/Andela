@@ -9,7 +9,6 @@ section{
 {
     background-color: #e2f0ff;
     overflow: hidden;
-    font-family:  'Roboto',"Myriad Pro",Arial,Helvetica,sans-serif !important;
     transition: all  1.2s ease;
     color: black;
     height: 360px;
@@ -20,7 +19,6 @@ section{
 {
     background-color: #e2f0ff;
     overflow: hidden;
-    font-family:  'Roboto',"Myriad Pro",Arial,Helvetica,sans-serif !important;
     /*transition: all  1.2s ease;*/
     color: black;
     height: 360px;
@@ -118,8 +116,6 @@ section{
 }
 
 .card-body .card-content { 
-   font-size: 13px; 
-   text-align: center;
    -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -o-transition: all 200ms ease;
@@ -136,16 +132,17 @@ section{
 
 .cardbox {
   margin-top: 10px;
+  margin-bottom: 10px;
   margin-right: 2%;
   position: relative;
   border: 4px solid white;
   box-shadow: 0 2px 7px #CCC;
-  padding: 0;
+  padding: 10px;
 }
 
 .image-wrapper {
-	width: 100%;
-	height: 35%;
+	width: 20%;
+  margin: 0 auto;
 	text-align: center;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
@@ -156,6 +153,7 @@ section{
 
 .image-wrapper img{
   margin-top: 5%;
+  max-width: 100%;
   transition: all  1.2s ease;
 }
 
