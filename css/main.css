@@ -228,54 +228,6 @@ a.selected {
   content: "\e009";
 }
 
-.hi-icon-screen:before {
-  content: "\e00a";
-}
-
-.hi-icon-earth:before {
-  content: "\e002";
-}
-
-.hi-icon-support:before {
-  content: "\e000";
-}
-
-.hi-icon-locked:before {
-  content: "\e001";
-}
-
-.hi-icon-cog:before {
-  content: "\e003";
-}
-
-.hi-icon-clock:before {
-  content: "\e004";
-}
-
-.hi-icon-videos:before {
-  content: "\e005";
-}
-
-.hi-icon-list:before {
-  content: "\e006";
-}
-
-.hi-icon-refresh:before {
-  content: "\e007";
-}
-
-.hi-icon-images:before {
-  content: "\e008";
-}
-
-.hi-icon-pencil:before {
-  content: "\e00b";
-}
-
-.hi-icon-link:before {
-  content: "\e00c";
-}
-
 .hi-icon-mail:before {
   content: "\e00d";
 }
@@ -283,31 +235,6 @@ a.selected {
 .hi-icon-location:before {
   content: "\e00e";
 }
-
-.hi-icon-archive:before {
-  content: "\e00f";
-}
-
-.hi-icon-chat:before {
-  content: "\e010";
-}
-
-.hi-icon-bookmark:before {
-  content: "\e011";
-}
-
-.hi-icon-user:before {
-  content: "\e012";
-}
-
-.hi-icon-contract:before {
-  content: "\e013";
-}
-
-.hi-icon-star:before {
-  content: "\e014";
-}
-
 
 
 
@@ -556,4 +483,10 @@ a.selected {
   .nav.navbar-nav.pull-right{
       float: none !important;
   }
+
+  .footer-col-text {
+  border-right: 0;
+  border-left: 0;
+ 
+    }
 }
