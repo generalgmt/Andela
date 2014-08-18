@@ -1,7 +1,7 @@
 $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+});
 
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
@@ -24,4 +24,10 @@ $("#menu-close").click(function(e) {
                 }
             }
         });
-});
+         //scrollspy
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh')
+        })
+    });
+
+  

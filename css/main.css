@@ -60,6 +60,7 @@ h2 {
 
 .active {
     font-weight: bold;
+    color: red;
 }
 
 .navbar-brand strong {
@@ -149,6 +150,10 @@ a img {
     background-color: black;
     color: white;
 }*/
+
+a.selected {
+    color: red;
+}
 
 .footer {
  background-color: black;

@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/seun.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,9 +35,9 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="my_wrapper">
            <div class="navbar-header">
               <a class="navbar-brand" href="#">
@@ -46,13 +47,15 @@
            </div>
 
            <div>
-              <ul class="nav navbar-nav pull-right">
+            <span class="pull-right">
+              <ul class="nav navbar-nav">
                  <li class="active"><a href="#top">Home</a></li>
                  <li><a href="#about">About</a></li>
                  <li><a href="#mean_stack">MEAN Stack</a></li>
                  <li><a href="#andela_fellow">Andela Fellow</a></li>
                  <li><a href="#apply">Apply</a></li>
               </ul>
+            </span>  
            </div>
        </div>
     </nav>
