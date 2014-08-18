@@ -551,3 +551,9 @@ a.selected {
     background-color: #52B6EC;
     color: #FFF;
 }*/
+
+@media screen and (max-width: 480px){
+  .nav.navbar-nav.pull-right{
+      float: none !important;
+  }
+}
