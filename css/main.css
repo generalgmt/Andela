@@ -155,12 +155,6 @@ a.selected {
     color: red;
 }
 
-.footer {
- background-color: black;
- padding-top: 20px;
-} 
-
-
 
 /*footer*/
 
@@ -539,3 +533,21 @@ a.selected {
 .footer-col, .footer-col a{
     color: white;
 }
+
+.footer {
+ background-color: black;
+ padding-top: 20px;} 
+
+.navbar-default .navbar-brand {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: auto !important;
+}
+.navbar-default {
+    border-radius: 0 !important;
+}
+
+/*.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active:focus > a, .navbar-default .navbar-nav > li.active:hover > a, .navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li:focus > a, .navbar-default .navbar-nav > li.active > a:focus, .navbar-default .navbar-nav > li.active:focus > a:focus, .navbar-default .navbar-nav > li.active:hover > a:focus, .navbar-default .navbar-nav > li:hover > a:focus, .navbar-default .navbar-nav > li:focus > a:focus {
+    background-color: #52B6EC;
+    color: #FFF;
+}*/

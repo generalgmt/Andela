@@ -38,8 +38,10 @@ a.navbar-brand img{
 
 a.navbar-brand strong{
   display: inline-block !important;
-  vertical-align: top;
+  vertical-align: center ;
   color: #333;
+  line-height: 2;
+  font-size: 22px;
 }
 a.navbar-brand strong:hover{
   color: #BF3604
@@ -205,3 +207,4 @@ opacity: 1;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
+
