@@ -1,0 +1,15 @@
+.fixed-bg-divAppyly {
+  padding-top: 15px !important;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
+  background-image: -o-linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
+  background-image: linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
+}
+.fixed-bg-imageApply {
+ /* padding-top: 5px !important;*/
+   background-color:#FF5C9D;
+  background-image: url('../img/fellow.jpg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
