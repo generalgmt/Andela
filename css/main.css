@@ -484,10 +484,6 @@ a.selected {
     color: #FFF;
 }*/
 
-.center {
-  text-align: center;
-}
-
 .rounded {
     background: #ff1493;
     background-image: -webkit-linear-gradient(top, #ff1493, #e01283);
@@ -543,7 +539,6 @@ a.selected {
     text-decoration: none;
   }
 
->>>>>>> 34a5366e6825a47c16a9f35943fb52bb3bd061f6
 
 @media screen and (max-width: 480px){
   .nav.navbar-nav.pull-right{
