@@ -1,15 +1,17 @@
-.fixed-bg-divAppyly {
-  padding-top: 15px !important;
-  background-color: transparent;
-  background-image: -webkit-linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
-  background-image: -o-linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
-  background-image: linear-gradient(#FF5C9D, rgba(128, 11, 54, 0.50) 56%);
+.icon {
+    font-size: 24px;
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    display: inline-block;
+    /*border-radius: 100%;*/
+    margin-bottom: 10px;
 }
-.fixed-bg-imageApply {
- /* padding-top: 5px !important;*/
-   background-color:#FF5C9D;
-  background-image: url('../img/fellow.jpg') !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
+
+.icon-color1 {
+  background-color: #2c3e50;;
 }

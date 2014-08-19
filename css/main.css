@@ -478,6 +478,11 @@ a.selected {
     color: #FFF;
 }*/
 
+.center {
+  text-align: center;
+}
+
+
 @media screen and (max-width: 480px){
   .nav.navbar-nav.pull-right{
       float: none !important;
