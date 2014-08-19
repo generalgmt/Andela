@@ -122,10 +122,11 @@ section{
     -ms-transition: all 200ms ease;
     transition: all 200ms ease;
  }
-.card-body .read-more {
+  
+.card-body .read-more, .readMore {
    margin-top: 4%; 
    position:absolute; 
-   bottom: 14px;
+   bottom: 20px;
    left: 35%;
    right: 40%;
 }
