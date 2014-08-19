@@ -164,7 +164,9 @@ a.selected {
     color: red;
 }
 
-
+.center{
+  text-align: center;
+}
 /*footer*/
 
 .footer-col {
