@@ -30,12 +30,17 @@ time, mark, audio, video {
 }
 
 body {
-    font-family: "Roboto", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Roboto", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    "Lato",Calibri,Arial,sans-serif;*/
+    font-family: 'Lato', Arial, sans-serif;
     font-size: 14px;
+    /*font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dosis', sans-serif;*/
 }
 
+
 h2 { 
-  font-family: 'Raleway', sans-serif;
+ *font-family: 'Source Sans Pro', sans-serif;
 }
 
 .text-vertical-center {
